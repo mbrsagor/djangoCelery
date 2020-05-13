@@ -1,1 +1,1 @@
-# Task scheduling
+# Task scheduling## Setup### Dependancies- Python 3.6.9 / Django 3.0The following steps will walk you thru installation on a Mac. Linux should be similar.It's also possible to develop on a Windows machine, but I have not documented the steps.If you've developed the django apps run on Windows, you should have little problem gettingup and running.
