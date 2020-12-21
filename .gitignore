@@ -1,1 +1,7 @@
-venv.ideadb.sqlite3**/migrations/
+venv
+.idea
+db.sqlite3
+**/migrations/
+.idea
+__pycache__
+.migrations
