@@ -13,10 +13,16 @@ It's also possible to develop on a Windows machine, but I have not documented th
 If you've developed the django apps run on Windows, you should have little problem getting
 up and running.
 
-### Install ```vritualenv```
-Activate `virutalenv` like
-```
+> Please follow the instructions to run the project in your local dev server
+
+```base
+git clone https://github.com/mbrsagor/DjangoCelery.git
+cd DjangoCelery
+virtualenv venv --python=python3.6
 source venv/bin/activate
+pip install -r requirements.txt   
+./manage.py migrate
+./manage.py runserver
 ```
 
 ### Install radis server 
