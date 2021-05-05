@@ -31,10 +31,10 @@ class Calculator(BaseEntity):
         return self.first_number / self.last_number
 
     
-    class Task(BaseEntity):
-        task_name = models.CharField(max_length=100)
-        start_day = models.CharField(max_length=100)
-        
-        def __str__(self):
-            return self.task_name
+class Task(BaseEntity):
+    task_name = models.CharField(max_length=100)
+    start_day = models.CharField(max_length=100)
+    
+    def __str__(self):
+        return f"Task Name: {self.task_name} Day: {self.start_day}"
         

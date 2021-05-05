@@ -1,4 +1,5 @@
 from django.contrib import admin
-from .models import Task
+from .models import Calculator, Task
 
+admin.site.register(Calculator)
 admin.site.register(Task)
