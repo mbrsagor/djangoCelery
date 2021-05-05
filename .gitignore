@@ -1,7 +1,9 @@
 venv
+env
 .idea
 db.sqlite3
-**/migrations/
+migrations/
+.vscode
 .idea
 __pycache__
 .migrations
