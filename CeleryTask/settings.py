@@ -28,19 +28,25 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
-INSTALLED_APPS = [
+DEFAULT_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+]
 
+LOCAL_APPS = [
     'task',
+]
 
+OTHER_APPS = [
     'django_celery_beat',
     'django_celery_results'
 ]
+
+INSTALLED_APPS = LOCAL_APPS + OTHER_APPS
 
 # Celery settings
 CELERY_BROKER_URL = 'redis://localhost:6379'
