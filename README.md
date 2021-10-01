@@ -2,7 +2,7 @@
 
 ## Setup
 
-### Dependancies
+### Dependencies
 
 - Python 3.6.9
 - postgres 13.2
