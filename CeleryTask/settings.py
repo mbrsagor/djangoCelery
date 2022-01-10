@@ -46,7 +46,7 @@ OTHER_APPS = [
     'django_celery_results'
 ]
 
-INSTALLED_APPS = LOCAL_APPS + OTHER_APPS
+INSTALLED_APPS = DEFAULT_APPS + LOCAL_APPS + OTHER_APPS
 
 # Celery settings
 CELERY_BROKER_URL = 'redis://localhost:6379'
