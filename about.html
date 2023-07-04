@@ -1,850 +1,1021 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Global Dynamic Solutions</title>
+    <meta name="keywords" content="GDS" />
+    <meta
+      name="description"
+      content="Global Dynamic Solutions, Software & IT Solutions"
+    />
+    <meta name="author" content="Global Dynamic Solutions Team" />
 
-    <head>
-        <!-- Basic -->
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Global Dynamic Solutions</title>
-        <meta name="keywords" content="GDS" />
-        <meta name="description" content="Global Dynamic Solutions, Software & IT Solutions" />
-        <meta name="author" content="Global Dynamic Solutions Team" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <!-- Mobile Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no"
+    />
+    <!-- Web Fonts  -->
+    <link
+      id="googleFonts"
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light&display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css" />
+    <link rel="stylesheet" href="vendor/animate/animate.compat.css" />
+    <link
+      rel="stylesheet"
+      href="vendor/simple-line-icons/css/simple-line-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="vendor/owl.carousel/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="vendor/owl.carousel/assets/owl.theme.default.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="vendor/magnific-popup/magnific-popup.min.css"
+    />
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme-elements.css" />
+    <link rel="stylesheet" href="css/theme-blog.css" />
+    <link rel="stylesheet" href="css/theme-shop.css" />
+    <!-- Current Page CSS -->
+    <link
+      rel="stylesheet"
+      href="vendor/circle-flip-slideshow/css/component.css"
+    />
+    <!-- Skin CSS -->
+    <link id="skinCSS" rel="stylesheet" href="css/skins/default.css" />
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css" />
+    <!-- Head Libs -->
+    <script src="vendor/modernizr/modernizr.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-42715764-11"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+      gtag('config', 'UA-42715764-11')
+    </script>
+  </head>
 
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-        <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
-        <!-- Mobile Metas -->
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no" />
-        <!-- Web Fonts  -->
-        <link id="googleFonts"
-            href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light&display=swap"
-            rel="stylesheet" type="text/css" />
-        <!-- Vendor CSS -->
-        <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css" />
-        <link rel="stylesheet" href="vendor/animate/animate.compat.css" />
-        <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.min.css" />
-        <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css" />
-        <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css" />
-        <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css" />
-        <!-- Theme CSS -->
-        <link rel="stylesheet" href="css/theme.css" />
-        <link rel="stylesheet" href="css/theme-elements.css" />
-        <link rel="stylesheet" href="css/theme-blog.css" />
-        <link rel="stylesheet" href="css/theme-shop.css" />
-        <!-- Current Page CSS -->
-        <link rel="stylesheet" href="vendor/circle-flip-slideshow/css/component.css" />
-        <!-- Skin CSS -->
-        <link id="skinCSS" rel="stylesheet" href="css/skins/default.css" />
-        <!-- Theme Custom CSS -->
-        <link rel="stylesheet" href="css/custom.css" />
-        <!-- Head Libs -->
-        <script src="vendor/modernizr/modernizr.min.js"></script>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-42715764-11"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag("js", new Date());
-            gtag("config", "UA-42715764-11");
-        </script>
-    </head>
-
-    <body data-plugin-page-transition>
-        <div class="body">
-            <header id="header"
-                data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyStartAt': 45, 'stickySetTop': '-45px', 'stickyChangeLogo': true}">
-                <div class="header-body">
-                    <div class="header-container container">
-                        <div class="header-row">
-                            <div class="header-column">
-                                <div class="header-row">
-                                    <div class="header-logo">
-                                        <a href="index.html">
-                                            <img alt="Porto" width="100" height="48" data-sticky-width="82"
-                                                data-sticky-height="40" data-sticky-top="25"
-                                                src="img/logo-default-slim.png" />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="header-column justify-content-end">
-                                <div class="header-row pt-3">
-                                  <nav class="header-nav-top">
-                                    <ul class="nav nav-pills">
-                                      <li class="nav-item nav-item-anim-icon d-none d-md-block">
-                                        <span class="ws-nowrap" ><i class="fas fa-phone"></i> (123) 456-789</span>
-                                      </li>
-                                      <li
-                                        class="nav-item nav-item-left-border nav-item-left-border-remove nav-item-left-border-md-show">
-                                        <span class="ws-nowrap" ><i class="fas fa-envelope"></i> info@globaldynamicsolutions.com</span>
-                                      </li>
-                                    </ul>
-                                  </nav>
-                                </div>
-                                <div class="header-row">
-                                    <div class="header-nav pt-1">
-                                        <div
-                                            class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1">
-                                            <nav class="collapse">
-                                              <ul class="nav nav-pills" id="mainNav">
-                                                <li class="dropdown">
-                                                  <a
-                                                    class="dropdown-item dropdown-toggle active"
-                                                    href="index.html"
-                                                  >
-                                                    Home
-                                                  </a>
-                                                </li>
-                                                <li class="dropdown dropdown-mega">
-                                                  <a class="dropdown-item dropdown-toggle" href="#">
-                                                    Services
-                                                  </a>
-                                                  <ul class="dropdown-menu">
-                                                    <li>
-                                                      <div class="dropdown-mega-content">
-                                                        <div class="row">
-                                                          <div class="col-lg-3">
-                                                            <span class="dropdown-mega-sub-title">Techonogy</span
-                                                            >
-                                                            <ul class="dropdown-mega-sub-nav">
-                                                              <li>
-                                                                <a
-                                                                  class="dropdown-item"
-                                                                  href="#">Python</a
-                                                                >
-                                                              </li>
-                                                              <li>
-                                                                <a
-                                                                  class="dropdown-item"
-                                                                  href="#">Kotlin</a>
-                                                              </li>
-                                                              <li>
-                                                                <a
-                                                                  class="dropdown-item"
-                                                                  href="#"
-                                                                  >JavaScript
-                                                                  <span
-                                                                    class="tip tip-dark p-relative bottom-2"
-                                                                    >hot</span
-                                                                  ></a
-                                                                >
-                                                              </li>
-                                                              <li>
-                                                                <a
-                                                                  class="dropdown-item"
-                                                                  href="#"
-                                                                  >Java</a
-                                                                >
-                                                              </li>
-                                                              <li>
-                                                                <a
-                                                                  class="dropdown-item"
-                                                                  href="#"
-                                                                  >HTML5</a
-                                                                >
-                                                              </li>
-                                                              <li>
-                                                                <a
-                                                                  class="dropdown-item"
-                                                                  href=""
-                                                                  >CSS</a
-                                                                >
-                                                              </li>
-                                                            </ul>
-                                                          </div>
-                                                          <div class="col-lg-3">
-                                                            <span class="dropdown-mega-sub-title"
-                                                              >Frameworks</span
-                                                            >
-                                                            <ul class="dropdown-mega-sub-nav">
-                                                              <li>
-                                                                <a
-                                                                  class="dropdown-item"
-                                                                  href="#"
-                                                                  >Django</a
-                                                                >
-                                                              </li>
-                                                              <li>
-                                                                <a
-                                                                  class="dropdown-item"
-                                                                  href="#"
-                                                                  >Flask</a
-                                                                >
-                                                              </li>
-                                                              <li>
-                                                                <a
-                                                                  class="dropdown-item"
-                                                                  href="#"
-                                                                  >FAstAPI</a
-                                                                >
-                                                              </li>
-                                                              <li>
-                                                                <a
-                                                                  class="dropdown-item"
-                                                                  href="#"
-                                                                  >React</a
-                                                                >
-                                                              </li>
-                                                              <li>
-                                                                <a
-                                                                  class="dropdown-item"
-                                                                  href="#"
-                                                                  >Angular</a
-                                                                >
-                                                              </li>
-                                                              <li>
-                                                                <a
-                                                                  class="dropdown-item"
-                                                                  href="#"
-                                                                  >Next.JS</a
-                                                                >
-                                                              </li>
-                                                            </ul>
-                                                          </div>
-                                                          <div class="col-lg-3">
-                                                            <span class="dropdown-mega-sub-title"
-                                                              >Projects</span
-                                                            >
-                                                            <ul class="dropdown-mega-sub-nav">
-                                                              <li>
-                                                                <a
-                                                                  class="dropdown-item"
-                                                                  href="#"
-                                                                  >B2B</a
-                                                                >
-                                                              </li>
-                                                              <li>
-                                                                <a
-                                                                  class="dropdown-item"
-                                                                  href="#"
-                                                                  >B2C</a
-                                                                >
-                                                              </li>
-                                                              <li>
-                                                                <a
-                                                                  class="dropdown-item"
-                                                                  href="#"
-                                                                  >ERP</a
-                                                                >
-                                                              </li>
-                                                              <li>
-                                                                <a
-                                                                  class="dropdown-item"
-                                                                  href="#"
-                                                                  >Enterprise</a
-                                                                >
-                                                              </li>
-                                                              <li>
-                                                                <a
-                                                                  class="dropdown-item"
-                                                                  href="#"
-                                                                  >Wordpress</a
-                                                                >
-                                                              </li>
-                                                              <li>
-                                                                <a
-                                                                  class="dropdown-item"
-                                                                  href="#"
-                                                                  >Web</a
-                                                                >
-                                                              </li>
-                                                            </ul>
-                                                          </div>
-                                                          <div class="col-lg-3">
-                                                            <span class="dropdown-mega-sub-title"
-                                                              >Softwares</span
-                                                            >
-                                                            <ul class="dropdown-mega-sub-nav">
-                                                              <li>
-                                                                <a
-                                                                  class="dropdown-item"
-                                                                  href="#"
-                                                                  >Hercules</a
-                                                                >
-                                                              </li>
-                                                              <li>
-                                                                <a
-                                                                  class="dropdown-item"
-                                                                  href="#"
-                                                                  >Shape Dividers</a
-                                                                >
-                                                              </li>
-                                                              <li>
-                                                                <a
-                                                                  class="dropdown-item"
-                                                                  href="#">Postel</a>
-                                                              </li>
-                                                            </ul>
-                                                          </div>
-                                                        </div>
-                                                      </div>
-                                                    </li>
-                                                  </ul>
-                                                </li>
-                                                <li class="dropdown">
-                                                  <a class="dropdown-item dropdown-toggle" href="#">
-                                                    Solutions
-                                                  </a>
-                                                  <ul class="dropdown-menu">
-                                                    <li><a class="dropdown-item" href="#">Web Development</a></li>
-                                                    <li><a class="dropdown-item" href="#">ERP & Inventory</a></li>
-                                                    <li><a class="dropdown-item" href="#">Android Apps Development</a></li>
-                                                    <li><a class="dropdown-item" href="#">IOS Apps Development</a></li>
-                                                    <li><a class="dropdown-item" href="#">Games Apps Development</a></li>
-                                                    <li><a class="dropdown-item" href="#">Search Engine Optimization</a></li>
-                                                    <li><a class="dropdown-item" href="#">Digital Marketing Solutions</a></li>
-                                                  </ul>
-                                                </li>
-                                                <li class="dropdown">
-                                                  <a class="dropdown-item dropdown-toggle" href="#">
-                                                    Company
-                                                  </a>
-                                                  <ul class="dropdown-menu">
-                                                    <li>
-                                                      <a class="dropdown-item" href="about.html"
-                                                        >About US</a
-                                                      >
-                                                    </li>
-                                                    <li>
-                                                      <a class="dropdown-item" href="#">Our Team</a>
-                                                    </li>
-                                                    <li>
-                                                      <a
-                                                        class="dropdown-item"
-                                                        href="contact.html">Contact US</a
-                                                      >
-                                                    </li>
-                                                  </ul>
-                                                </li>
-                                                <li class="dropdown">
-                                                  <a class="dropdown-item" href="page-careers.html">
-                                                      Careers
-                                                  </a>
-                                                </li>
-                                                <li> <a class="dropdown-item" href="blog.html">Blog</a></li>
-                                              </ul>
-                                          </nav>
-                                        </div>
-                                        <ul class="header-social-icons social-icons d-none d-sm-block">
-                                            <li class="social-icons-facebook">
-                                                <a href="http://www.facebook.com/" target="_blank" title="Facebook"><i
-                                                        class="fab fa-facebook-f"></i></a>
-                                            </li>
-                                            <li class="social-icons-twitter">
-                                                <a href="http://www.twitter.com/" target="_blank" title="Twitter"><i
-                                                        class="fab fa-twitter"></i></a>
-                                            </li>
-                                            <li class="social-icons-linkedin">
-                                                <a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i
-                                                        class="fab fa-linkedin-in"></i></a>
-                                            </li>
-                                        </ul>
-                                        <button class="btn header-btn-collapse-nav" data-bs-toggle="collapse"
-                                            data-bs-target=".header-nav-main nav">
-                                            <i class="fas fa-bars"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+  <body data-plugin-page-transition>
+    <div class="body">
+      <header
+        id="header"
+        data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyStartAt': 45, 'stickySetTop': '-45px', 'stickyChangeLogo': true}"
+      >
+        <div class="header-body">
+          <div class="header-container container">
+            <div class="header-row">
+              <div class="header-column">
+                <div class="header-row">
+                  <div class="header-logo">
+                    <a href="index.html">
+                      <img
+                        alt="Porto"
+                        width="100"
+                        height="48"
+                        data-sticky-width="82"
+                        data-sticky-height="40"
+                        data-sticky-top="25"
+                        src="img/logo-default-slim.png"
+                      />
+                    </a>
+                  </div>
                 </div>
-            </header>
-
-            <div role="main" class="main">
-                <!-- Start page heaer -->
-                <section class="page-header page-header-classic page-header-sm">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-8 order-2 order-md-1 align-self-center p-static">
-                                <span class="page-header-title-border visible" style="width: 89.2812px;"></span>
-                                <h1 data-title-border="">About Us</h1>
-                            </div>
-                            <div class="col-md-4 order-1 order-md-2 align-self-center">
-                                <ul class="breadcrumb d-block text-md-end">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li class="active">About US</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- End page header -->
-                <!-- start success -->
-                <div class="container pb-1">
-                    <div class="row pt-4">
-                        <div class="col">
-                            <div class="overflow-hidden mb-3">
-                                <h2 class="word-rotator slide font-weight-bold text-8 mb-0 appear-animation animated maskUp appear-animation-visible"
-                                    data-appear-animation="maskUp" style="animation-delay: 100ms;">
-                                    <span>The New Way to </span>
-                                    <span class="word-rotator-words bg-primary" style="width: 156.367px;">
-                                        <b class="is-hidden">Success</b>
-                                        <b class="is-visible">Advance</b>
-                                        <b class="is-hidden">Progress</b>
-                                    </span>
-                                </h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mb-2">
-                        <div class="col-lg-10">
-                            <div class="overflow-hidden">
-                                <p class="lead mb-0 appear-animation animated maskUp appear-animation-visible"
-                                    data-appear-animation="maskUp" data-appear-animation-delay="250"
-                                    style="animation-delay: 250ms;">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque
-                                    imperdiet. Nulla lacinia iaculis nulla non <span
-                                        class="alternative-font">metus.</span> pulvinar. Sociis natoque penatibus et
-                                    magnis dis parturient montes.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 appear-animation animated fadeIn appear-animation-visible"
-                            data-appear-animation="fadeIn" data-appear-animation-delay="450"
-                            style="animation-delay: 450ms;">
-                            <a href="#" class="btn btn-modern btn-primary mt-1">Join Our Team!</a>
-                        </div>
-                    </div>
+              </div>
+              <div class="header-column justify-content-end">
+                <div class="header-row pt-3">
+                  <nav class="header-nav-top">
+                    <ul class="nav nav-pills">
+                      <li class="nav-item nav-item-anim-icon d-none d-md-block">
+                        <span class="ws-nowrap">
+                          <i class="fas fa-phone"></i>
+                          (123) 456-789
+                        </span>
+                      </li>
+                      <li
+                        class="nav-item nav-item-left-border nav-item-left-border-remove nav-item-left-border-md-show"
+                      >
+                        <span class="ws-nowrap">
+                          <i class="fas fa-envelope"></i>
+                          info@globaldynamicsolutions.com
+                        </span>
+                      </li>
+                    </ul>
+                  </nav>
                 </div>
-                <!-- end success -->
-
-                <!-- start slide -->
-                <section
-                    class="section section-default border-0 my-5 appear-animation animated fadeIn appear-animation-visible"
-                    data-appear-animation="fadeIn" data-appear-animation-delay="750" style="animation-delay: 750ms;">
-                    <div class="container py-4">
-
-                        <div class="row align-items-center">
-                            <div class="col-md-6 appear-animation animated fadeInLeftShorter appear-animation-visible"
-                                data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1000"
-                                style="animation-delay: 1000ms;">
-                                <div class="owl-carousel owl-theme nav-inside mb-0 owl-loaded owl-drag owl-carousel-init"
-                                    data-plugin-options="{'items': 1, 'margin': 10, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 6000, 'loop': true}"
-                                    style="height: auto;">
-                                    <div class="owl-stage-outer">
-                                        <div class="owl-stage"
-                                            style="transform: translate3d(-1112px, 0px, 0px); transition: all 0s ease 0s; width: 3336px;">
-                                            <div class="owl-item cloned" style="width: 546px; margin-right: 10px;">
-                                                <div>
-                                                    <img alt="" class="img-fluid"
-                                                        src="img/generic/generic-corporate-3-2-full.jpg">
-                                                </div>
-                                            </div>
-                                            <div class="owl-item cloned" style="width: 546px; margin-right: 10px;">
-                                                <div>
-                                                    <img alt="" class="img-fluid"
-                                                        src="img/generic/generic-corporate-3-3-full.jpg">
-                                                </div>
-                                            </div>
-                                            <div class="owl-item active" style="width: 546px; margin-right: 10px;">
-                                                <div>
-                                                    <img alt="" class="img-fluid"
-                                                        src="img/generic/generic-corporate-3-2-full.jpg">
-                                                </div>
-                                            </div>
-                                            <div class="owl-item" style="width: 546px; margin-right: 10px;">
-                                                <div>
-                                                    <img alt="" class="img-fluid"
-                                                        src="img/generic/generic-corporate-3-3-full.jpg">
-                                                </div>
-                                            </div>
-                                            <div class="owl-item cloned" style="width: 546px; margin-right: 10px;">
-                                                <div>
-                                                    <img alt="" class="img-fluid"
-                                                        src="img/generic/generic-corporate-3-2-full.jpg">
-                                                </div>
-                                            </div>
-                                            <div class="owl-item cloned" style="width: 546px; margin-right: 10px;">
-                                                <div>
-                                                    <img alt="" class="img-fluid"
-                                                        src="img/generic/generic-corporate-3-3-full.jpg">
-                                                </div>
-                                            </div>
-                                        </div>
+                <div class="header-row">
+                  <div class="header-nav pt-1">
+                    <div
+                      class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1"
+                    >
+                      <nav class="collapse">
+                        <ul class="nav nav-pills" id="mainNav">
+                          <li class="dropdown">
+                            <a
+                              class="dropdown-item dropdown-toggle active"
+                              href="index.html"
+                            >
+                              Home
+                            </a>
+                          </li>
+                          <li class="dropdown dropdown-mega">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                              Services
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <div class="dropdown-mega-content">
+                                  <div class="row">
+                                    <div class="col-lg-3">
+                                      <span class="dropdown-mega-sub-title">
+                                        Techonogy
+                                      </span>
+                                      <ul class="dropdown-mega-sub-nav">
+                                        <li>
+                                          <a class="dropdown-item" href="#">
+                                            Python
+                                          </a>
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item" href="#">
+                                            Kotlin
+                                          </a>
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item" href="#">
+                                            JavaScript
+                                            <span
+                                              class="tip tip-dark p-relative bottom-2"
+                                            >
+                                              hot
+                                            </span>
+                                          </a>
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item" href="#">
+                                            Java
+                                          </a>
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item" href="#">
+                                            HTML5
+                                          </a>
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item" href="">
+                                            CSS
+                                          </a>
+                                        </li>
+                                      </ul>
                                     </div>
+                                    <div class="col-lg-3">
+                                      <span class="dropdown-mega-sub-title">
+                                        Frameworks
+                                      </span>
+                                      <ul class="dropdown-mega-sub-nav">
+                                        <li>
+                                          <a class="dropdown-item" href="#">
+                                            Django
+                                          </a>
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item" href="#">
+                                            Flask
+                                          </a>
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item" href="#">
+                                            FAstAPI
+                                          </a>
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item" href="#">
+                                            React
+                                          </a>
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item" href="#">
+                                            Angular
+                                          </a>
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item" href="#">
+                                            Next.JS
+                                          </a>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                    <div class="col-lg-3">
+                                      <span class="dropdown-mega-sub-title">
+                                        Projects
+                                      </span>
+                                      <ul class="dropdown-mega-sub-nav">
+                                        <li>
+                                          <a class="dropdown-item" href="#">
+                                            B2B
+                                          </a>
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item" href="#">
+                                            B2C
+                                          </a>
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item" href="#">
+                                            ERP
+                                          </a>
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item" href="#">
+                                            Enterprise
+                                          </a>
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item" href="#">
+                                            Wordpress
+                                          </a>
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item" href="#">
+                                            Web
+                                          </a>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                    <div class="col-lg-3">
+                                      <span class="dropdown-mega-sub-title">
+                                        Softwares
+                                      </span>
+                                      <ul class="dropdown-mega-sub-nav">
+                                        <li>
+                                          <a class="dropdown-item" href="#">
+                                            Hercules
+                                          </a>
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item" href="#">
+                                            Shape Dividers
+                                          </a>
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item" href="#">
+                                            Postel
+                                          </a>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
                                 </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="overflow-hidden mb-2">
-                                    <h2 class="text-color-dark font-weight-normal text-7 mb-0 pt-0 mt-0 appear-animation animated maskUp appear-animation-visible"
-                                        data-appear-animation="maskUp" data-appear-animation-delay="1200"
-                                        style="animation-delay: 1200ms;">Who <strong class="font-weight-extra-bold">We
-                                            Are</strong></h2>
-                                </div>
-                                <p class="appear-animation animated fadeInUpShorter appear-animation-visible"
-                                    data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400"
-                                    style="animation-delay: 1400ms;">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit. Aliquam <a href="#">vehicula</a> sit amet enim ac sagittis. Curabitur eget leo
-                                    varius, elementum mauris eget, egestas quam. Donec ante risus, dapibus sed lectus
-                                    non, lacinia vestibulum nisi. Morbi vitae augue quam. Nullam ac laoreet libero.</p>
-                                <p class="mb-0 appear-animation animated fadeInUpShorter appear-animation-visible"
-                                    data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1600"
-                                    style="animation-delay: 1600ms;">Consectetur adipiscing elit. Aliquam iaculis sit
-                                    amet enim ac sagittis. Curabitur eget leo varius, elementum mauris eget, egestas
-                                    quam.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </section>
-                <!-- end slide -->
-                <!-- start vision and mission -->
-                <div class="container">
-
-					<div class="row mt-5 py-3">
-						<div class="col-md-6">
-							<div class="toggle toggle-primary toggle-simple m-0" data-plugin-toggle="">
-								<section class="toggle active mt-0">
-									<a class="toggle-title">Our Vision</a>
-									<div class="toggle-content" style="display: block;">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. Etiam nec viverra arcu. Morbi vitae augue quam. Nullam ac laoreet libero.</p>
-									</div>
-								</section>
-								<section class="toggle">
-									<a class="toggle-title">Our Mission</a>
-									<div class="toggle-content">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus. Nullam tortor nunc, bibendum vitae semper a, volutpat eget massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla, orci sit amet posuere auctor.</p>
-									</div>
-								</section>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="progress-bars">
-								<div class="progress-label">
-									<span class="text-1">HTML/CSS</span>
-								</div>
-								<div class="progress mb-2">
-									<div class="progress-bar progress-bar-primary" data-appear-progress-animation="100%" style="width: 100%;">
-										<span class="progress-bar-tooltip" style="opacity: 1;">100%</span>
-									</div>
-								</div>
-								<div class="progress-label">
-									<span class="text-1">Design</span>
-								</div>
-								<div class="progress mb-2">
-									<div class="progress-bar progress-bar-primary" data-appear-progress-animation="85%" data-appear-animation-delay="300" style="width: 85%;">
-										<span class="progress-bar-tooltip" style="opacity: 1;">85%</span>
-									</div>
-								</div>
-								<div class="progress-label">
-									<span class="text-1">WordPress</span>
-								</div>
-								<div class="progress mb-2">
-									<div class="progress-bar progress-bar-primary" data-appear-progress-animation="75%" data-appear-animation-delay="600" style="width: 75%;">
-										<span class="progress-bar-tooltip" style="opacity: 1;">75%</span>
-									</div>
-								</div>
-								<div class="progress-label">
-									<span class="text-1">Photoshop</span>
-								</div>
-								<div class="progress mb-2">
-									<div class="progress-bar progress-bar-primary" data-appear-progress-animation="85%" data-appear-animation-delay="900" style="width: 85%;">
-										<span class="progress-bar-tooltip" style="opacity: 1;">85%</span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col py-4">
-							<hr class="solid">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-8 mx-md-auto text-center">
-
-							<h2 class="text-color-dark font-weight-normal text-7 mb-0 pt-2">Our <strong class="font-weight-extra-bold">History</strong></h2>
-							<p>How we started, lorem ipsum dolor sit amet, consectetur adipiscing elit ac laoreet libero.</p>
-
-							<section class="timeline" id="timeline">
-								<div class="timeline-body">
-									<div class="timeline-date">
-										<h3 class="text-primary font-weight-bold">2023</h3>
-									</div>
-
-									<article class="timeline-box left text-start appear-animation animated fadeIn appear-animation-visible" data-appear-animation="fadeIn" data-appear-animation-delay="200" style="animation-delay: 200ms;">
-										<div class="timeline-box-arrow"></div>
-										<div class="p-2">
-											<img alt="" class="img-fluid" src="img/history/history-3.jpg">
-											<h3 class="font-weight-bold text-3 mt-3 mb-1">New Office</h3>
-											<p class="mb-0 text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum, nulla vel pellentesque consequat, ante.</p>
-										</div>
-									</article>
-
-									<div class="timeline-date">
-										<h3 class="text-primary font-weight-bold">2012</h3>
-									</div>
-
-									<article class="timeline-box right text-start appear-animation animated fadeIn appear-animation-visible" data-appear-animation="fadeIn" data-appear-animation-delay="400" style="animation-delay: 400ms;">
-										<div class="timeline-box-arrow"></div>
-										<div class="p-2">
-											<img alt="" class="img-fluid" src="img/history/history-2.jpg">
-											<h3 class="font-weight-bold text-3 mt-3 mb-1">New Partners</h3>
-											<p class="mb-0 text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum, nulla vel pellentesque consequat.</p>
-										</div>
-									</article>
-
-									<div class="timeline-date">
-										<h3 class="text-primary font-weight-bold">2006</h3>
-									</div>
-
-									<article class="timeline-box left text-start appear-animation animated fadeIn appear-animation-visible" data-appear-animation="fadeIn" data-appear-animation-delay="600" style="animation-delay: 600ms;">
-										<div class="timeline-box-arrow"></div>
-										<div class="p-2">
-											<img alt="" class="img-fluid" src="img/history/history-1.jpg">
-											<h3 class="font-weight-bold text-3 mt-3 mb-1">Foundation</h3>
-											<p class="mb-0 text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum, nulla vel consequat, ante.</p>
-										</div>
-									</article>
-								</div>
-							</section>
-						</div>
-					</div>
-				</div>
-                <!-- end visson and mission -->
-
-                <!-- start meet to team -->
-                <section class="section section-default border-0 my-5">
-					<div class="container py-4">
-						<div class="row">
-							<div class="col pb-4 text-center">
-								<h2 class="text-color-dark font-weight-normal text-7 mb-0 pt-2">Meet <strong class="font-weight-extra-bold">Our Team</strong></h2>
-								<p>Rockstars lorem ipsum dolor sit amet, consectetur adipiscing elit ac laoreet libero.</p>
-							</div>
-						</div>
-						<div class="row pb-4 mb-2">
-							<div class="col-sm-6 col-lg-3 mb-4 mb-lg-0 appear-animation animated appear-animation-visible" data-appear-animation="fadeInRightShorter">
-								<span class="thumb-info thumb-info-hide-wrapper-bg bg-transparent border-radius-0">
-									<span class="thumb-info-wrapper border-radius-0">
-										<a href="#">
-											<img src="img/team/team-1.jpg" class="img-fluid border-radius-0" alt="">
-											<span class="thumb-info-title">
-												<span class="thumb-info-inner">John Doe</span>
-												<span class="thumb-info-type">CEO</span>
-											</span>
-										</a>
-									</span>
-									<span class="thumb-info-caption">
-										<span class="thumb-info-caption-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac ligula mi, non suscipitaccumsan</span>
-										<span class="thumb-info-social-icons">
-											<a target="_blank" href="http://www.facebook.com"><i class="fab fa-facebook-f"></i><span>Facebook</span></a>
-											<a href="http://www.twitter.com"><i class="fab fa-twitter"></i><span>Twitter</span></a>
-											<a href="http://www.linkedin.com"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a>
-										</span>
-									</span>
-								</span>
-							</div>
-							<div class="col-sm-6 col-lg-3 mb-4 mb-lg-0 appear-animation animated appear-animation-visible" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">
-								<span class="thumb-info thumb-info-hide-wrapper-bg bg-transparent border-radius-0">
-									<span class="thumb-info-wrapper border-radius-0">
-										<a href="#">
-											<img src="img/team/team-2.jpg" class="img-fluid border-radius-0" alt="">
-											<span class="thumb-info-title">
-												<span class="thumb-info-inner">Jessica Doe</span>
-												<span class="thumb-info-type">Marketing</span>
-											</span>
-										</a>
-									</span>
-									<span class="thumb-info-caption">
-										<span class="thumb-info-caption-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac ligula mi, non suscipitaccumsan</span>
-										<span class="thumb-info-social-icons">
-											<a target="_blank" href="http://www.facebook.com">
-                                                <i class="fab fa-facebook-f"></i><span>Facebook</span>
-                                            </a>
-											<a href="http://www.twitter.com">
-                                                <i class="fab fa-twitter"></i><span>Twitter</span>
-                                            </a>
-											<a href="http://www.linkedin.com">
-                                                <i class="fab fa-linkedin-in"></i><span>Linkedin</span>
-                                            </a>
-										</span>
-									</span>
-								</span>
-							</div>
-							<div class="col-sm-6 col-lg-3 mb-4 mb-sm-0 appear-animation animated appear-animation-visible" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="400">
-								<span class="thumb-info thumb-info-hide-wrapper-bg bg-transparent border-radius-0">
-									<span class="thumb-info-wrapper border-radius-0">
-										<a href="#">
-											<img src="img/team/team-3.jpg" class="img-fluid border-radius-0" alt="">
-											<span class="thumb-info-title">
-												<span class="thumb-info-inner">Rick Edward Doe</span>
-												<span class="thumb-info-type">Developer</span>
-											</span>
-										</a>
-									</span>
-									<span class="thumb-info-caption">
-										<span class="thumb-info-caption-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac ligula mi, non suscipitaccumsan</span>
-										<span class="thumb-info-social-icons">
-											<a target="_blank" href="http://www.facebook.com"><i class="fab fa-facebook-f"></i><span>Facebook</span></a>
-											<a href="http://www.twitter.com"><i class="fab fa-twitter"></i><span>Twitter</span></a>
-											<a href="http://www.linkedin.com"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a>
-										</span>
-									</span>
-								</span>
-							</div>
-							<div class="col-sm-6 col-lg-3 appear-animation animated appear-animation-visible" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="600">
-								<span class="thumb-info thumb-info-hide-wrapper-bg bg-transparent border-radius-0">
-									<span class="thumb-info-wrapper border-radius-0">
-										<a href="#">
-											<img src="img/team/team-4.jpg" class="img-fluid border-radius-0" alt="">
-											<span class="thumb-info-title">
-												<span class="thumb-info-inner">Melinda Wolosky</span>
-												<span class="thumb-info-type">Design</span>
-											</span>
-										</a>
-									</span>
-									<span class="thumb-info-caption">
-										<span class="thumb-info-caption-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac ligula mi, non suscipitaccumsan</span>
-										<span class="thumb-info-social-icons">
-											<a target="_blank" href="http://www.facebook.com"><i class="fab fa-facebook-f"></i><span>Facebook</span></a>
-											<a href="http://www.twitter.com"><i class="fab fa-twitter"></i><span>Twitter</span></a>
-											<a href="http://www.linkedin.com"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a>
-										</span>
-									</span>
-								</span>
-							</div>
-						</div>
-					</div>
-				</section>
-                <!-- end meet to team -->
-            </div>
-            <!-- start footer -->
-            <footer id="footer">
-                <div class="container">
-                    <div class="footer-ribbon">
-                        <span>Get in Touch</span>
-                    </div>
-                    <div class="row py-5 my-4">
-                        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-                            <h5 class="text-3 mb-3">Who We Are?</h5>
-                            <p class="pe-1">
-                                Keep up on our always evolving product features and technology.
-                                Enter your e-mail address and subscribe to our newsletter.
-                            </p>
-                        </div>
-                        <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
-                            <div class="contact-details">
-                                <h5 class="text-3 mb-3">CONTACT US</h5>
-                                <ul class="list list-icons list-icons-lg">
-                                    <li class="mb-1">
-                                        <i class="far fa-dot-circle text-color-primary"></i>
-                                        <p class="m-0">234 Street Name, City Name</p>
-                                    </li>
-                                    <li class="mb-1">
-                                        <i class="fab fa-whatsapp text-color-primary"></i>
-                                        <p class="m-0">
-                                            <a href="tel:8001234567">(800) 123-4567</a>
-                                        </p>
-                                    </li>
-                                    <li class="mb-1">
-                                        <i class="far fa-envelope text-color-primary"></i>
-                                        <p class="m-0">
-                                            <a href="/cdn-cgi/l/email-protection#7c111d15103c19041d110c1019521f1311"><span
-                                                    class="__cf_email__"
-                                                    data-cfemail="c1aca0a8ad81a4b9a0acb1ada4efa2aeac">[email&#160;protected]</span></a>
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
-                            <h5 class="text-3 mb-3">Career</h5>
-                            <ul class="list-unstyled mb-0">
-                                <li class="mb-2 pb-1">
-                                    <a href="#">
-                                        <p class="text-3 text-color-light opacity-8 mb-0">
-                                            <i class="fas fa-angle-right text-color-primary"></i><strong
-                                                class="ms-2 font-weight-semibold">Lorem ipsum dolor sit amet.</strong>
-                                        </p>
-                                        <p class="text-2 mb-0">12:55 AM Dec 19th</p>
-                                    </a>
-                                </li>
-                                <li class="mb-2 pb-1">
-                                    <a href="#">
-                                        <p class="text-3 text-color-light opacity-8 mb-0">
-                                            <i class="fas fa-angle-right text-color-primary"></i><strong
-                                                class="ms-2 font-weight-semibold">Ipsum dolor sit amet.</strong>
-                                        </p>
-                                        <p class="text-2 mb-0">12:55 AM Dec 19th</p>
-                                    </a>
-                                </li>
+                              </li>
                             </ul>
-                        </div>
-                        <div class="col-md-6 col-lg-2">
-                            <h5 class="text-3 mb-3">FOLLOW US</h5>
-                            <ul class="social-icons">
-                                <li class="social-icons-facebook">
-                                    <a href="http://www.facebook.com/" target="_blank" title="Facebook"><i
-                                            class="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li class="social-icons-twitter">
-                                    <a href="http://www.twitter.com/" target="_blank" title="Twitter"><i
-                                            class="fab fa-twitter"></i></a>
-                                </li>
-                                <li class="social-icons-linkedin">
-                                    <a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i
-                                            class="fab fa-linkedin-in"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-copyright">
-                    <div class="container py-2">
-                        <div class="row py-4">
-                            <div
-                                class="col-lg-1 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0">
-                                <a href="index.html" class="logo pe-0 pe-lg-3">
-                                    <img alt="Porto Website Template" src="img/logo-footer.png" class="opacity-5"
-                                        width="49" height="22" data-plugin-options="{'appearEffect': 'fadeIn'}" />
+                          </li>
+                          <li class="dropdown">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                              Solutions
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <a class="dropdown-item" href="#">
+                                  Web Development
                                 </a>
-                            </div>
-                            <div
-                                class="col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
-                                <p>© Copyright 2023. All Rights Reserved.</p>
-                            </div>
-                            <div
-                                class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-end">
-                                <nav id="sub-menu">
-                                    <ul>
-                                        <li>
-                                            <i class="fas fa-angle-right"></i><a href="page-faq.html"
-                                                class="ms-1 text-decoration-none">
-                                                FAQ's</a>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-angle-right"></i><a href="sitemap.html"
-                                                class="ms-1 text-decoration-none">
-                                                Sitemap</a>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-angle-right"></i><a href="contact-us.html"
-                                                class="ms-1 text-decoration-none">
-                                                Contact Us</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="#">
+                                  ERP & Inventory
+                                </a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="#">
+                                  Android Apps Development
+                                </a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="#">
+                                  IOS Apps Development
+                                </a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="#">
+                                  Games Apps Development
+                                </a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="#">
+                                  Search Engine Optimization
+                                </a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="#">
+                                  Digital Marketing Solutions
+                                </a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="dropdown">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                              Company
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <a class="dropdown-item" href="about.html">
+                                  About US
+                                </a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="team.html">
+                                  Our Team
+                                </a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="contact.html">
+                                  Contact US
+                                </a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="dropdown">
+                            <a class="dropdown-item" href="page-careers.html">
+                              Careers
+                            </a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="blog.html">Blog</a>
+                          </li>
+                        </ul>
+                      </nav>
                     </div>
+                    <ul
+                      class="header-social-icons social-icons d-none d-sm-block"
+                    >
+                      <li class="social-icons-facebook">
+                        <a
+                          href="http://www.facebook.com/"
+                          target="_blank"
+                          title="Facebook"
+                        >
+                          <i class="fab fa-facebook-f"></i>
+                        </a>
+                      </li>
+                      <li class="social-icons-twitter">
+                        <a
+                          href="http://www.twitter.com/"
+                          target="_blank"
+                          title="Twitter"
+                        >
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li class="social-icons-linkedin">
+                        <a
+                          href="http://www.linkedin.com/"
+                          target="_blank"
+                          title="Linkedin"
+                        >
+                          <i class="fab fa-linkedin-in"></i>
+                        </a>
+                      </li>
+                    </ul>
+                    <button
+                      class="btn header-btn-collapse-nav"
+                      data-bs-toggle="collapse"
+                      data-bs-target=".header-nav-main nav"
+                    >
+                      <i class="fas fa-bars"></i>
+                    </button>
+                  </div>
                 </div>
-            </footer>
-            <!-- end footer -->
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- Vendor -->
-        <script src="js/email-decode.min.js"></script>
-        <script src="vendor/plugins/js/plugins.min.js"></script>
-        <!-- Theme Base, Components and Settings -->
-        <script src="js/theme.js"></script>
-        <!-- Circle Flip Slideshow Script -->
-        <script src="vendor/circle-flip-slideshow/js/jquery.flipshow.min.js"></script>
-        <!-- Current Page Views -->
-        <script src="js/views/view.home.js"></script>
-        <!-- Theme Initialization Files -->
-        <script src="js/theme.init.js"></script>
-    </body>
+      </header>
+
+      <div role="main" class="main">
+        <!-- Start page heaer -->
+        <section class="page-header page-header-classic page-header-sm">
+          <div class="container">
+            <div class="row">
+              <div
+                class="col-md-8 order-2 order-md-1 align-self-center p-static"
+              >
+                <span
+                  class="page-header-title-border visible"
+                  style="width: 89.2812px;"
+                ></span>
+                <h1 data-title-border="">About Us</h1>
+              </div>
+              <div class="col-md-4 order-1 order-md-2 align-self-center">
+                <ul class="breadcrumb d-block text-md-end">
+                  <li><a href="index.html">Home</a></li>
+                  <li class="active">About US</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End page header -->
+        <!-- start success -->
+        <div class="container pb-1">
+          <div class="row pt-4">
+            <div class="col">
+              <div class="overflow-hidden mb-3">
+                <h2
+                  class="word-rotator slide font-weight-bold text-8 mb-0 appear-animation animated maskUp appear-animation-visible"
+                  data-appear-animation="maskUp"
+                  style="animation-delay: 100ms;"
+                >
+                  <span>The New Way to</span>
+                  <span
+                    class="word-rotator-words bg-primary"
+                    style="width: 156.367px;"
+                  >
+                    <b class="is-hidden">Success</b>
+                    <b class="is-visible">Advance</b>
+                    <b class="is-hidden">Progress</b>
+                  </span>
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-lg-10">
+              <div class="overflow-hidden">
+                <p
+                  class="lead mb-0 appear-animation animated maskUp appear-animation-visible"
+                  data-appear-animation="maskUp"
+                  data-appear-animation-delay="250"
+                  style="animation-delay: 250ms;"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis
+                  nulla non
+                  <span class="alternative-font">metus.</span>
+                  pulvinar. Sociis natoque penatibus et magnis dis parturient
+                  montes.
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-lg-2 appear-animation animated fadeIn appear-animation-visible"
+              data-appear-animation="fadeIn"
+              data-appear-animation-delay="450"
+              style="animation-delay: 450ms;"
+            >
+              <a href="#" class="btn btn-modern btn-primary mt-1">
+                Join Our Team!
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- end success -->
+
+        <!-- start slide -->
+        <section
+          class="section section-default border-0 my-5 appear-animation animated fadeIn appear-animation-visible"
+          data-appear-animation="fadeIn"
+          data-appear-animation-delay="750"
+          style="animation-delay: 750ms;"
+        >
+          <div class="container py-4">
+            <div class="row align-items-center">
+              <div
+                class="col-md-6 appear-animation animated fadeInLeftShorter appear-animation-visible"
+                data-appear-animation="fadeInLeftShorter"
+                data-appear-animation-delay="1000"
+                style="animation-delay: 1000ms;"
+              >
+                <div
+                  class="owl-carousel owl-theme nav-inside mb-0 owl-loaded owl-drag owl-carousel-init"
+                  data-plugin-options="{'items': 1, 'margin': 10, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 6000, 'loop': true}"
+                  style="height: auto;"
+                >
+                  <div class="owl-stage-outer">
+                    <div
+                      class="owl-stage"
+                      style="
+                        transform: translate3d(-1112px, 0px, 0px);
+                        transition: all 0s ease 0s;
+                        width: 3336px;
+                      "
+                    >
+                      <div
+                        class="owl-item cloned"
+                        style="width: 546px; margin-right: 10px;"
+                      >
+                        <div>
+                          <img
+                            alt=""
+                            class="img-fluid"
+                            src="img/generic/generic-corporate-3-2-full.jpg"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="owl-item cloned"
+                        style="width: 546px; margin-right: 10px;"
+                      >
+                        <div>
+                          <img
+                            alt=""
+                            class="img-fluid"
+                            src="img/generic/generic-corporate-3-3-full.jpg"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="owl-item active"
+                        style="width: 546px; margin-right: 10px;"
+                      >
+                        <div>
+                          <img
+                            alt=""
+                            class="img-fluid"
+                            src="img/generic/generic-corporate-3-2-full.jpg"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="owl-item"
+                        style="width: 546px; margin-right: 10px;"
+                      >
+                        <div>
+                          <img
+                            alt=""
+                            class="img-fluid"
+                            src="img/generic/generic-corporate-3-3-full.jpg"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="owl-item cloned"
+                        style="width: 546px; margin-right: 10px;"
+                      >
+                        <div>
+                          <img
+                            alt=""
+                            class="img-fluid"
+                            src="img/generic/generic-corporate-3-2-full.jpg"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="owl-item cloned"
+                        style="width: 546px; margin-right: 10px;"
+                      >
+                        <div>
+                          <img
+                            alt=""
+                            class="img-fluid"
+                            src="img/generic/generic-corporate-3-3-full.jpg"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="overflow-hidden mb-2">
+                  <h2
+                    class="text-color-dark font-weight-normal text-7 mb-0 pt-0 mt-0 appear-animation animated maskUp appear-animation-visible"
+                    data-appear-animation="maskUp"
+                    data-appear-animation-delay="1200"
+                    style="animation-delay: 1200ms;"
+                  >
+                    Who
+                    <strong class="font-weight-extra-bold">We Are</strong>
+                  </h2>
+                </div>
+                <p
+                  class="appear-animation animated fadeInUpShorter appear-animation-visible"
+                  data-appear-animation="fadeInUpShorter"
+                  data-appear-animation-delay="1400"
+                  style="animation-delay: 1400ms;"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aliquam
+                  <a href="#">vehicula</a>
+                  sit amet enim ac sagittis. Curabitur eget leo varius,
+                  elementum mauris eget, egestas quam. Donec ante risus, dapibus
+                  sed lectus non, lacinia vestibulum nisi. Morbi vitae augue
+                  quam. Nullam ac laoreet libero.
+                </p>
+                <p
+                  class="mb-0 appear-animation animated fadeInUpShorter appear-animation-visible"
+                  data-appear-animation="fadeInUpShorter"
+                  data-appear-animation-delay="1600"
+                  style="animation-delay: 1600ms;"
+                >
+                  Consectetur adipiscing elit. Aliquam iaculis sit amet enim ac
+                  sagittis. Curabitur eget leo varius, elementum mauris eget,
+                  egestas quam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- end slide -->
+        <!-- start vision and mission -->
+        <div class="container">
+          <div class="row mt-5 py-3">
+            <div class="col-md-6">
+              <div
+                class="toggle toggle-primary toggle-simple m-0"
+                data-plugin-toggle=""
+              >
+                <section class="toggle active mt-0">
+                  <a class="toggle-title">Our Vision</a>
+                  <div class="toggle-content" style="display: block;">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Curabitur pellentesque neque eget diam posuere porta.
+                      Quisque ut nulla at nunc
+                      <a href="#">vehicula</a>
+                      lacinia. Proin adipiscing porta tellus, ut feugiat nibh
+                      adipiscing sit amet. Etiam nec viverra arcu. Morbi vitae
+                      augue quam. Nullam ac laoreet libero.
+                    </p>
+                  </div>
+                </section>
+                <section class="toggle">
+                  <a class="toggle-title">Our Mission</a>
+                  <div class="toggle-content">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Curabitur eget leo at velit imperdiet varius. In eu ipsum
+                      vitae velit congue iaculis vitae at risus. Nullam tortor
+                      nunc, bibendum vitae semper a, volutpat eget massa. Lorem
+                      ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                      fringilla, orci sit amet posuere auctor.
+                    </p>
+                  </div>
+                </section>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="progress-bars">
+                <div class="progress-label">
+                  <span class="text-1">HTML/CSS</span>
+                </div>
+                <div class="progress mb-2">
+                  <div
+                    class="progress-bar progress-bar-primary"
+                    data-appear-progress-animation="100%"
+                    style="width: 100%;"
+                  >
+                    <span class="progress-bar-tooltip" style="opacity: 1;">
+                      100%
+                    </span>
+                  </div>
+                </div>
+                <div class="progress-label">
+                  <span class="text-1">Design</span>
+                </div>
+                <div class="progress mb-2">
+                  <div
+                    class="progress-bar progress-bar-primary"
+                    data-appear-progress-animation="85%"
+                    data-appear-animation-delay="300"
+                    style="width: 85%;"
+                  >
+                    <span class="progress-bar-tooltip" style="opacity: 1;">
+                      85%
+                    </span>
+                  </div>
+                </div>
+                <div class="progress-label">
+                  <span class="text-1">WordPress</span>
+                </div>
+                <div class="progress mb-2">
+                  <div
+                    class="progress-bar progress-bar-primary"
+                    data-appear-progress-animation="75%"
+                    data-appear-animation-delay="600"
+                    style="width: 75%;"
+                  >
+                    <span class="progress-bar-tooltip" style="opacity: 1;">
+                      75%
+                    </span>
+                  </div>
+                </div>
+                <div class="progress-label">
+                  <span class="text-1">Photoshop</span>
+                </div>
+                <div class="progress mb-2">
+                  <div
+                    class="progress-bar progress-bar-primary"
+                    data-appear-progress-animation="85%"
+                    data-appear-animation-delay="900"
+                    style="width: 85%;"
+                  >
+                    <span class="progress-bar-tooltip" style="opacity: 1;">
+                      85%
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col py-4">
+              <hr class="solid" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8 mx-md-auto text-center">
+              <h2 class="text-color-dark font-weight-normal text-7 mb-0 pt-2">
+                Our
+                <strong class="font-weight-extra-bold">History</strong>
+              </h2>
+              <p>
+                How we started, lorem ipsum dolor sit amet, consectetur
+                adipiscing elit ac laoreet libero.
+              </p>
+
+              <section class="timeline" id="timeline">
+                <div class="timeline-body">
+                  <div class="timeline-date">
+                    <h3 class="text-primary font-weight-bold">2023</h3>
+                  </div>
+
+                  <article
+                    class="timeline-box left text-start appear-animation animated fadeIn appear-animation-visible"
+                    data-appear-animation="fadeIn"
+                    data-appear-animation-delay="200"
+                    style="animation-delay: 200ms;"
+                  >
+                    <div class="timeline-box-arrow"></div>
+                    <div class="p-2">
+                      <img
+                        alt=""
+                        class="img-fluid"
+                        src="img/history/history-3.jpg"
+                      />
+                      <h3 class="font-weight-bold text-3 mt-3 mb-1">
+                        New Office
+                      </h3>
+                      <p class="mb-0 text-2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Fusce elementum, nulla vel pellentesque consequat, ante.
+                      </p>
+                    </div>
+                  </article>
+
+                  <div class="timeline-date">
+                    <h3 class="text-primary font-weight-bold">2012</h3>
+                  </div>
+
+                  <article
+                    class="timeline-box right text-start appear-animation animated fadeIn appear-animation-visible"
+                    data-appear-animation="fadeIn"
+                    data-appear-animation-delay="400"
+                    style="animation-delay: 400ms;"
+                  >
+                    <div class="timeline-box-arrow"></div>
+                    <div class="p-2">
+                      <img
+                        alt=""
+                        class="img-fluid"
+                        src="img/history/history-2.jpg"
+                      />
+                      <h3 class="font-weight-bold text-3 mt-3 mb-1">
+                        New Partners
+                      </h3>
+                      <p class="mb-0 text-2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Fusce elementum, nulla vel pellentesque consequat.
+                      </p>
+                    </div>
+                  </article>
+
+                  <div class="timeline-date">
+                    <h3 class="text-primary font-weight-bold">2006</h3>
+                  </div>
+
+                  <article
+                    class="timeline-box left text-start appear-animation animated fadeIn appear-animation-visible"
+                    data-appear-animation="fadeIn"
+                    data-appear-animation-delay="600"
+                    style="animation-delay: 600ms;"
+                  >
+                    <div class="timeline-box-arrow"></div>
+                    <div class="p-2">
+                      <img
+                        alt=""
+                        class="img-fluid"
+                        src="img/history/history-1.jpg"
+                      />
+                      <h3 class="font-weight-bold text-3 mt-3 mb-1">
+                        Foundation
+                      </h3>
+                      <p class="mb-0 text-2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Fusce elementum, nulla vel consequat, ante.
+                      </p>
+                    </div>
+                  </article>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- start footer -->
+      <footer id="footer">
+        <div class="container">
+          <div class="footer-ribbon">
+            <span>Get in Touch</span>
+          </div>
+          <div class="row py-5 my-4">
+            <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+              <h5 class="text-3 mb-3">Who We Are?</h5>
+              <p class="pe-1">
+                Keep up on our always evolving product features and technology.
+                Enter your e-mail address and subscribe to our newsletter.
+              </p>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+              <div class="contact-details">
+                <h5 class="text-3 mb-3">CONTACT US</h5>
+                <ul class="list list-icons list-icons-lg">
+                  <li class="mb-1">
+                    <i class="far fa-dot-circle text-color-primary"></i>
+                    <p class="m-0">234 Street Name, City Name</p>
+                  </li>
+                  <li class="mb-1">
+                    <i class="fab fa-whatsapp text-color-primary"></i>
+                    <p class="m-0">
+                      <a href="tel:8001234567">(800) 123-4567</a>
+                    </p>
+                  </li>
+                  <li class="mb-1">
+                    <i class="far fa-envelope text-color-primary"></i>
+                    <p class="m-0">
+                      <a
+                        href="/cdn-cgi/l/email-protection#7c111d15103c19041d110c1019521f1311"
+                      >
+                        <span
+                          class="__cf_email__"
+                          data-cfemail="c1aca0a8ad81a4b9a0acb1ada4efa2aeac"
+                        >
+                          [email&#160;protected]
+                        </span>
+                      </a>
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+              <h5 class="text-3 mb-3">Career</h5>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2 pb-1">
+                  <a href="#">
+                    <p class="text-3 text-color-light opacity-8 mb-0">
+                      <i class="fas fa-angle-right text-color-primary"></i>
+                      <strong class="ms-2 font-weight-semibold">
+                        Lorem ipsum dolor sit amet.
+                      </strong>
+                    </p>
+                    <p class="text-2 mb-0">12:55 AM Dec 19th</p>
+                  </a>
+                </li>
+                <li class="mb-2 pb-1">
+                  <a href="#">
+                    <p class="text-3 text-color-light opacity-8 mb-0">
+                      <i class="fas fa-angle-right text-color-primary"></i>
+                      <strong class="ms-2 font-weight-semibold">
+                        Ipsum dolor sit amet.
+                      </strong>
+                    </p>
+                    <p class="text-2 mb-0">12:55 AM Dec 19th</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-lg-2">
+              <h5 class="text-3 mb-3">FOLLOW US</h5>
+              <ul class="social-icons">
+                <li class="social-icons-facebook">
+                  <a
+                    href="http://www.facebook.com/"
+                    target="_blank"
+                    title="Facebook"
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="social-icons-twitter">
+                  <a
+                    href="http://www.twitter.com/"
+                    target="_blank"
+                    title="Twitter"
+                  >
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="social-icons-linkedin">
+                  <a
+                    href="http://www.linkedin.com/"
+                    target="_blank"
+                    title="Linkedin"
+                  >
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container py-2">
+            <div class="row py-4">
+              <div
+                class="col-lg-1 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0"
+              >
+                <a href="index.html" class="logo pe-0 pe-lg-3">
+                  <img
+                    alt="Porto Website Template"
+                    src="img/logo-footer.png"
+                    class="opacity-5"
+                    width="49"
+                    height="22"
+                    data-plugin-options="{'appearEffect': 'fadeIn'}"
+                  />
+                </a>
+              </div>
+              <div
+                class="col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0"
+              >
+                <p>© Copyright 2023. All Rights Reserved.</p>
+              </div>
+              <div
+                class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-end"
+              >
+                <nav id="sub-menu">
+                  <ul>
+                    <li>
+                      <i class="fas fa-angle-right"></i>
+                      <a href="page-faq.html" class="ms-1 text-decoration-none">
+                        FAQ's
+                      </a>
+                    </li>
+                    <li>
+                      <i class="fas fa-angle-right"></i>
+                      <a href="sitemap.html" class="ms-1 text-decoration-none">
+                        Sitemap
+                      </a>
+                    </li>
+                    <li>
+                      <i class="fas fa-angle-right"></i>
+                      <a
+                        href="contact-us.html"
+                        class="ms-1 text-decoration-none"
+                      >
+                        Contact Us
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- end footer -->
+    </div>
+    <!-- Vendor -->
+    <script src="js/email-decode.min.js"></script>
+    <script src="vendor/plugins/js/plugins.min.js"></script>
+    <!-- Theme Base, Components and Settings -->
+    <script src="js/theme.js"></script>
+    <!-- Circle Flip Slideshow Script -->
+    <script src="vendor/circle-flip-slideshow/js/jquery.flipshow.min.js"></script>
+    <!-- Current Page Views -->
+    <script src="js/views/view.home.js"></script>
+    <!-- Theme Initialization Files -->
+    <script src="js/theme.init.js"></script>
+  </body>
 </html>
