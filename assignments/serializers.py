@@ -6,8 +6,8 @@ from .models import Assignment
 class AssignmentSerializer(serializers.ModelSerializer):
     class Meta:
         model = Assignment
-        read_only_fields = ("id", "total")
+        read_only_fields = ("id", "sum")
         fields = (
             "id", "title", "first_term",
-            "second_term", "total"
+            "second_term", "sum"
         )
