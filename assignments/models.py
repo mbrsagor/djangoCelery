@@ -9,3 +9,9 @@ class Assignment(models.Model):
 
     def __str__(self):
         return self.title
+
+
+"""
+Source:
+https://saasitive.com/tutorial/django-celery-redis-postgres-docker-compose/
+"""
